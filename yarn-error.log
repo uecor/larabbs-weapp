@@ -1,23 +1,20 @@
 Arguments: 
-  /usr/bin/node /usr/bin/yarn add wepy-async-function
+  /usr/local/bin/node /usr/bin/yarn add moment
 
 PATH: 
-  /home/vagrant/.composer/vendor/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+  /home/vagrant/.composer/vendor/bin:/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/n/versions/node/8.9.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 
 Yarn version: 
   1.7.0
 
 Node version: 
-  8.11.2
+  8.11.3
 
 Platform: 
   linux x64
 
 Trace: 
-  Error: getaddrinfo EAI_AGAIN registry.npm.taobao.org:443
-      at Object._errnoException (util.js:992:11)
-      at errnoException (dns.js:55:15)
-      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+  Error: EPROTO: protocol error, symlink '../acorn/bin/acorn' -> '/home/vagrant/Code/larabbs-weapp/node_modules/acorn-jsx/node_modules/.bin/acorn'
 
 npm manifest: 
   {
@@ -44,7 +41,7 @@ npm manifest:
       "redux-actions": "^2.2.1",
       "redux-promise": "^0.5.3",
       "wepy": "^1.6.0",
-      "wepy-async-function": "^1.4.4",
+      "wepy-async-function": "^1.4.6",
       "wepy-com-toast": "^1.0.2",
       "wepy-redux": "^1.5.3"
     },
@@ -2038,7 +2035,7 @@ Lockfile:
       core-util-is "1.0.2"
       extsprintf "^1.2.0"
   
-  wepy-async-function@^1.4.4:
+  wepy-async-function@^1.4.6:
     version "1.4.6"
     resolved "http://registry.npm.taobao.org/wepy-async-function/download/wepy-async-function-1.4.6.tgz#b650c3d46ddea54404ba1e005e0b949897c69804"
     dependencies:
